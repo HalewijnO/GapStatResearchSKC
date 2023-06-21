@@ -1,0 +1,13 @@
+This map contains the four maps corresponding to the four data sets used in this paper.
+
+Simulation comparison
+This map contains the R code for generating the data where the user itself can define the mu and p to use. In addition the code has all methods proposed in the paper with explanation for the steps used. The map also contains three files with the results in terms of summary statistics of the CER of the 20 runs seperated in files corresponding to the number of features p =50, 200 and 500. In these files the summary statitics are provided with a tab for each value of mu.
+
+Larger simulation
+This map contains the R code both for generating the data with 5 clusters (RCode_ThesisSim5Clust) and with 6 clusters (RCode_ThesisSim6Clust) as described in the paper. Again the methods proposed in the paper are included in the code. The file with the results is seperated for the number of clusters. The files contain the summary statistics for the CER of the 20 runs. In addition the file contains all values of the selected value for the tuning parameter per run with the mean and standard deviation. The number of clusters both the NbClust and the joint methods select each run is also put in the paper.
+
+Lung cancer data
+This map contains the raw data used as found online on the Github referenced in the paper. In addition the results and R code are provided. The code contains how the data is cleaned and used for the methods and the methods themselves. The results provided show for each method the selected value of the tuning parameter for each of the 25 times each loop for the methods was run. For the joint method the results are provided for all cluster options. In addition the final results are summarized with the average value for the tuning parameter, the selected number of clusters, the CER and the number of nonzero weights for each method. 
+
+Gas data
+This file contains also the raw data as found in the referenced source in the paper, but an additional feature is added named label, which consists of a numerical value indicating the label which is used for calculating the CER. Again the R code for all methods and how the data is cleaned are included. Also the results are included in the same matter as for the Lung cancer data. This means the optimal tuning parameter value is saved for all 25 runs per method. In addition some final results are provided for the optimal value of the tuning parameter, the CER, the selected number of clusters and the number of nozero weights for each method.  
